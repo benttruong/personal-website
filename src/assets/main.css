@@ -8,23 +8,23 @@
   font-weight: normal;
 }
 
-a,
-.green {
+a {
   text-decoration: none;
-  color: hsla(160, 100%, 37%, 1);
+  color:cornflowerblue;
   transition: 0.4s;
 }
 
-@media (hover: hover) {
+/* @media (hover: hover) {
   a:hover {
     background-color: hsla(160, 100%, 37%, 0.2);
   }
-}
+} */
 
 header {
   line-height: 1.5;
   display: flex;
   place-items: center;
+  color:antiquewhite;
 }
 
 .logo {
@@ -38,4 +38,5 @@ header {
   display: block;
   font-size: x-large;
   font-weight: bolder;
+  color:lightgrey;
 }

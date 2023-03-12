@@ -10,11 +10,10 @@
 <style scoped>
 header {
   line-height: 1.5;
-  display: flex;
+  margin: auto;
 }
 
 .logo {
-  display: block;
   margin: 0 1rem;
   border-radius: 50%;
 }

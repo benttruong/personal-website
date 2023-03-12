@@ -1,7 +1,7 @@
 <script setup>
 import MainHeader from './components/MainHeader.vue';
-import AboutMe from './components/AboutMe.vue';
-
+import NavBar from './components/NavBar.vue';
+import { RouterView } from 'vue-router';
 </script>
 
 <template>
@@ -12,12 +12,10 @@ import AboutMe from './components/AboutMe.vue';
   <main>
     <div class="main-container">
       <div class="side-container">
-        <a class="link" href="http://">Link 1</a>
-        <a class="link" href="http://">Link 2</a>
-        <a class="link" href="http://">Link 3</a>
+       <NavBar/>
       </div>
       <div class="info-section">
-        <AboutMe/>
+        <RouterView/>
       </div>
     </div>
     
@@ -32,21 +30,16 @@ import AboutMe from './components/AboutMe.vue';
 }
 
 .side-container {
-  width: 20%;
+  width: 30%;
   padding: 10px;
-  color: crimson ;
+  line-height: 4rem;
 }
 
 .info-section {
   padding: 10px;
-  width: 80%;
+  width: 70%;
 }
 
-.link {
-  color: beige;
-  font-weight: bold;
-  display: block;
-}
 
 
 </style>
