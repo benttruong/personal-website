@@ -23,8 +23,10 @@ ul {
 }
 
 .link:hover {
-  border: 5px;
-  border-color: antiquewhite;
+  color:cyan;
+}
+
+.router-link-exact-active {
   color: darksalmon;
 }
 </style>
