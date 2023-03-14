@@ -2,8 +2,8 @@
 
 <template>
   <header>
-    <img alt="Self Portait" class="logo" src="../assets/images/self.jpg" width="125" height="125" />
-    <h1 class="name">Ben Truong</h1>
+    <img alt="Self Portait" class="logo" src="../assets/images/self.jpg"/>
+    <h1 class="page-name">Ben Truong</h1>
   </header>
 </template>
 
@@ -16,10 +16,20 @@ header {
 .logo {
   margin: 0 1rem;
   border-radius: 50%;
+  width: 125px;
+  height: 125px;
 }
 
 .name {
   font-weight: bolder;
   font-size:xx-large;
+}
+
+@media (max-width: 414px) {
+  .logo {
+    width: 75px;
+    height: 75px;
+  }
+  
 }
 </style>

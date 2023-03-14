@@ -30,14 +30,14 @@ import { RouterView } from 'vue-router';
 }
 
 .side-container {
-  width: 30%;
-  padding: 10px;
+  width: 20%;
+  padding-right: 10px;
   line-height: 4rem;
 }
 
 .info-section {
   padding: 10px;
-  width: 70%;
+  width: 80%;
 }
 
 
