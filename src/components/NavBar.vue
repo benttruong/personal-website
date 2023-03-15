@@ -30,13 +30,13 @@
 </template>
 
 <style scoped>
-@media (max-width: 414px) {
+@media (max-width: 767px) {
   p {
     display: none;
   }
 }
 
-@media (min-width: 414px) and (max-width: 1023px) {
+@media (min-width: 768px) and (max-width: 1023px) {
   p {
     font-size: large;
   }

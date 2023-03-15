@@ -30,6 +30,12 @@ header {
     width: 75px;
     height: 75px;
   }
-  
+}
+
+@media (min-width: 415px) and (max-width: 1023px) {
+  .logo {
+    width: 100px;
+    height: 100px;
+  }
 }
 </style>
