@@ -20,9 +20,13 @@ header {
   height: 125px;
 }
 
-.name {
+.page-name {
   font-weight: bolder;
-  font-size:xx-large;
+  font-size:xxx-large;
+  color:aliceblue;
+  /* font-family: 'Architects Daughter', cursive; */
+/* font-family: 'Cinzel', serif; */
+font-family: 'Playfair Display', serif;
 }
 
 @media (max-width: 414px) {

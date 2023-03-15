@@ -6,15 +6,23 @@ function send() {
 
   console.log(
     '============ MESSAGE ============\n' +
-      'Name: ' + name + '\n' +
-      'Email: ' + email +'\n' +
-      'Message: ' + message +'\n' +
-    '============ ******* ============');
+      'Name: ' +
+      name +
+      '\n' +
+      'Email: ' +
+      email +
+      '\n' +
+      'Message: ' +
+      message +
+      '\n' +
+      '============ ******* ============'
+  )
 }
 </script>
 <template>
   <span class="section-header">Contact Me</span>
   <form class="container" @submit.prevent="send">
+  <p class="note">For the time being, this form does not actually have a backend to handle the data yet. When the form is completed and the Send button is clicked, there will be a message printed to the console log that confirms the event has been handled. The functionality of the form will be implemented in the future, along with expansion for the rest of this website.</p>
     <section class="info">
       <label for="name">Name:</label>
       <input type="text" id="name" required />
@@ -59,12 +67,11 @@ function send() {
 
 label {
   padding: 0.25rem 0;
-  color: salmon;
+  font-weight:900;
   width: 30%;
 }
 
 .info {
-  /* margin: 2rem; */
   padding: 1rem 0;
   display: flex;
   flex-direction: row;
@@ -109,4 +116,21 @@ button {
 #clear {
   background-color: darkred;
 }
+
+#send:hover,
+#clear:hover {
+  background-color: slateblue;
+  cursor: pointer;
+}
+
+#send:active,
+#clear:active {
+  background-color: indigo;
+}
+
+.note {
+  text-align: center;
+  padding: 2%;
+}
+
 </style>
