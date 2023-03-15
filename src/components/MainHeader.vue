@@ -2,7 +2,7 @@
 
 <template>
   <header>
-    <img alt="Self Portait" class="logo" src="../assets/images/self.jpg"/>
+    <img alt="Self Portait" class="logo" src="../assets/images/self.jpg" />
     <h1 class="page-name">Ben Truong</h1>
   </header>
 </template>
@@ -21,12 +21,10 @@ header {
 }
 
 .page-name {
-  font-weight: bolder;
-  font-size:xxx-large;
-  color:aliceblue;
-  /* font-family: 'Architects Daughter', cursive; */
-/* font-family: 'Cinzel', serif; */
-font-family: 'Playfair Display', serif;
+  font-weight: 900;
+  font-size: xxx-large;
+  color: aliceblue;
+  font-family: 'Playfair Display', serif;
 }
 
 @media (max-width: 414px) {
@@ -34,12 +32,18 @@ font-family: 'Playfair Display', serif;
     width: 75px;
     height: 75px;
   }
+  .page-name {
+    font-size: xx-large;
+  }
 }
 
 @media (min-width: 415px) and (max-width: 1023px) {
   .logo {
     width: 100px;
     height: 100px;
+  }
+  .page-name {
+    font-size: xx-large;
   }
 }
 </style>
