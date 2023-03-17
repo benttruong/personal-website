@@ -36,7 +36,7 @@
     reference and show off their work as an experience. Stay tuned for an update when that happens!
   </p>
 
-  <img src="../assets/images/aaw.png" />
+  <img src="../assets/images/aaw.png" alt="abilities at work web app screenshot"/>
 </template>
 
 <style scoped>
