@@ -5,10 +5,10 @@ The website is a simple multi-page website that essentially introduce myself and
 
 During the development, I have utilized many sources of instructions including materials from the class, documentation from Vue (https://vuejs.org/guide/introduction.html) and MDN (https://developer.mozilla.org/en-US/docs/Web/CSS), along with a few tutorials from YouTube listed below:
 
-# How to Use Google's Material Icons on Your Websites
+How to Use Google's Material Icons on Your Websites:
 https://youtu.be/D9ciQq6cwmI
 
-# The Net Ninja (to learn about Vue-Routing)
+The Net Ninja (to learn about Vue-Routing):
 https://www.youtube.com/@NetNinja
 
 
