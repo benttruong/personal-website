@@ -1,45 +1,34 @@
 <script setup>
-import MainHeader from './components/MainHeader.vue';
-import NavBar from './components/NavBar.vue';
-import { RouterView } from 'vue-router';
+import MainHeader from './components/MainHeader.vue'
+import NavBar from './components/NavBar.vue'
+import { RouterView } from 'vue-router'
 </script>
 
 <template>
   <header>
-    <MainHeader/>
+    <MainHeader />
   </header>
 
   <main>
     <div class="main-container">
       <div class="side-container">
-       <NavBar/>
+        <NavBar />
       </div>
       <div class="info-section">
-        <RouterView/>
+        <RouterView />
       </div>
     </div>
-    
   </main>
 </template>
 
 <style scoped>
-.main-container {
-  margin: 1rem 0;
-  display: flex;
-  flex-direction: row;
+
+@media (max-width: 768) {
+  .side-container {
+    width: 10%;
+  }
+  .info-section {
+    width: 90%;
+  }
 }
-
-.side-container {
-  width: 20%;
-  padding-right: 10px;
-  line-height: 4rem;
-}
-
-.info-section {
-  padding: 10px;
-  width: 80%;
-}
-
-
-
 </style>

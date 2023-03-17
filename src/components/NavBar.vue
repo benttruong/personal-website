@@ -8,9 +8,9 @@
         </RouterLink>
       </li>
       <li>
-        <RouterLink class="link" to="/education">
+        <RouterLink class="link" to="/background">
           <span class="material-symbols-outlined"> school </span>
-          <p>Education</p>
+          <p>Background</p>
         </RouterLink>
       </li>
       <li>
@@ -48,6 +48,7 @@
 
 ul {
   padding: 0;
+  text-align: center;
 }
 span {
   padding: 1rem 0;
@@ -63,15 +64,5 @@ nav {
   padding: 0;
 }
 
-li {
-  list-style-type: none;
-}
 
-.link:hover {
-  color: cyan;
-}
-
-.router-link-exact-active {
-  color: darksalmon;
-}
 </style>

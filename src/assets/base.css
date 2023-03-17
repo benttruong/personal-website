@@ -31,3 +31,33 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+li {
+  list-style: none;
+}
+
+a:hover,
+.link:hover {
+  color: cyan;
+}
+
+.router-link-exact-active {
+  color: darksalmon;
+}
+
+.main-container {
+  margin: 1rem 0;
+  display: flex;
+  flex-direction: row;
+}
+
+.side-container {
+  width: 20%;
+  padding-right: 10px;
+  line-height: 4rem;
+}
+
+.info-section {
+  width: 80%;
+}
+
