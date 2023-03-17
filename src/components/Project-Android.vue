@@ -17,7 +17,7 @@
     pm) The Search will help you search for all the phone calls from any particular existing
     customer that has the begin time between a certain range.
   </p>
-  <img src="../assets/images/android-project.PNG" width="100%" />
+  <img src="../assets/images/android-project.png" />
 </template>
 
 <style scoped>

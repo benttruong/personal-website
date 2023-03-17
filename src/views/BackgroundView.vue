@@ -11,7 +11,7 @@
     challenging projects.
   </p>
 
-  <img src="../assets/images/resume.PNG" alt="resume" />
+  <img src="../assets/images/resume.png" alt="resume" />
 </template>
 
 <style>

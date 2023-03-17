@@ -2,7 +2,6 @@
 
 <template>
   <header>
-    <!-- <img alt="Self Portait" class="logo" src="../assets/images/self.jpg" /> -->
     <h1 class="page-name">Ben Truong</h1>
   </header>
 </template>
